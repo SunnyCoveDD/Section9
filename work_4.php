@@ -5,16 +5,15 @@ function Task4($arg1)
     {
         if($arg1 % $i == 0)
         {
-            return false;
+            return 0;
         }
-        else
-            return true;
     }
+    return 1;
 }
 $num = Task4(5);
 if($num == false)
 {
-    echo "Число непростое";
+    echo "Число не простое";
 }
 else
 {
